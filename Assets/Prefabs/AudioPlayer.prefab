@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5854416232318916116
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5854416232318916117}
+  - component: {fileID: 5854416232318916118}
+  m_Layer: 0
+  m_Name: AudioPlayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5854416232318916117
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5854416232318916116}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5854416232318916118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5854416232318916116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c22a80c5686c94883411737907e747, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpClip: {fileID: 8300000, guid: b61d8d5dc19c4894a98c02d0dc1f5530, type: 3}
+  jumpVolume: 0.1
+  playerDieClip: {fileID: 8300000, guid: ec6e79947f406e140a6117b5e626dda0, type: 3}
+  playerDieVolume: 1
+  enemyDieClip: {fileID: 8300000, guid: 21219e659e5ef3440a4b753d8cee6565, type: 3}
+  enemyDieVolume: 1
+  checkpointClip: {fileID: 8300000, guid: 6b622aed1620d5d4fb82371af729aefa, type: 3}
+  checkpointVolume: 1
+  shootingClip: {fileID: 8300000, guid: ca7a7def361dfa148a2be0ac2f6f7f5f, type: 3}
+  shootingVolume: 1
+  regularImpactClip: {fileID: 8300000, guid: 05884e76b594155428f9d98f6acc2bbe, type: 3}
+  regularImpactVolume: 0.4
+  timeImpactClip: {fileID: 8300000, guid: b4bbcce58cb5f5e42bbc91e3646cafb6, type: 3}
+  timeImpactVolume: 1
+  ammoSwitchClip: {fileID: 8300000, guid: ae19f5ec44826c34aabe177286d854fc, type: 3}
+  ammoSwitchVolume: 1
+  switchClip: {fileID: 8300000, guid: a4e9a810a0d7c504790001597a3ede5f, type: 3}
+  switchVolume: 1
+  cyberDoorClip: {fileID: 8300000, guid: 8aee6c67d7413bb42931c11404a9c585, type: 3}
+  cyberDoorVolume: 1
+  forestDoorClip: {fileID: 8300000, guid: 1f5f00d365756af478f861cf68202baa, type: 3}
+  forestDoorVolume: 1
+  pickupClip: {fileID: 8300000, guid: f5d8b83d871a6b443b4af502a3350b08, type: 3}
+  pickupVolume: 1
+  coinPickupClip: {fileID: 0}
+  coinPickupVolume: 1
